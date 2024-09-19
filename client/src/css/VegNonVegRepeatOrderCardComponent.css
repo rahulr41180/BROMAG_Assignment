@@ -1,0 +1,62 @@
+#card_box {
+    width: 310px;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 6.71px 20.12px 0px #0000001C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.content {
+
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #486072;
+    margin: 0;
+    padding: 0;
+}
+
+.content span:nth-child(2) {
+    color: #5C7A8F;
+    font-size: 32px;
+}
+
+.content span:nth-child(4) {
+    font-size: 19px;
+}
+
+.content span:nth-child(4) svg {
+    color: #00B69B;
+}
+
+#card_box .icon {
+    width: 20%;
+    height: 70%;
+    border-radius: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card_box .icon svg {
+    opacity: 1 !important;
+    width: 60%;
+    height: 60%;
+    font-weight: 800;
+}
+
+.MdOutlineReceiptLong svg {
+    color: #FFAB8B;
+}
+
+.GoGraph svg {
+    color: #FEC53D;
+}
+
+.FiBox svg {
+    color: #7a60ff;
+}

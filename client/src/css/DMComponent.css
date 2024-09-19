@@ -1,0 +1,150 @@
+#dmc_container {
+    /* border: 1px solid; */
+    position: absolute;
+    width: 998px;
+    height: 559px;
+    left: 282px;
+    border-radius: 80px 0 0 80px;
+    background-color: #F5F6FA;
+}
+
+#dmc_main {
+    width: 100%;
+
+    height: 480px;
+    border-radius: 0 0 0 80px;
+    background-color: #F5F6FA;
+}
+
+.dmc_heading {
+    margin: 0px 0 2px 25px;
+    padding: 0;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #1F303C;
+}
+
+#dmc_card_box {
+    margin: 0 25px 15px 25px;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#dmc_card_box a {
+    text-decoration: none;
+}
+
+#dmc_totalOrder_container {
+    margin: 0 25px;
+    height: 310px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 15px 0px #0000001C;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.totalOrder_tags {
+    margin: 0 0 5px 0;
+    width: 97%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#dmc_totalOrder_container .totalOrder_tags .tags {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 0 0 10px;
+    gap: 2px;
+}
+
+#tags_box h6 {
+    margin: 0;
+    color: #1F303C;
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+#food_category {
+    display: flex;
+    gap: 25px;
+}
+
+#food_category p {
+    margin: 0;
+    padding: 0;
+}
+
+#food_category p:nth-child(1) svg {
+    color: #FF8255;
+}
+
+#food_category p:nth-child(1) span,
+#food_category p:nth-child(2) span {
+    color: #5C7A8F;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#food_category p:nth-child(2) svg {
+    color: #FFC742;
+}
+
+#dmc_totalOrder_container .totalOrder_tags .sortSelect {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.sortSelect span {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #89A3B7;
+}
+
+#selectOption {
+    border: 1px solid #C6C6C6;
+
+    width: 100%;
+    height: 50%;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1F303C;
+    padding: 0 2px;
+}
+
+.totalOrder_graph {
+    width: 97%;
+    height: 76.1%;
+    background-color: #F1F9FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.totalOrder_graph div:nth-child(1) {
+    width: 100%;
+    height: 100%;
+}
+
+.totalOrder_graph > div > div svg:nth-child(1) {
+    height: 315px;
+}
+
+.highcharts-title, .highcharts-axis-title, .highcharts-legend, .highcharts-credits {
+    display: none;
+}

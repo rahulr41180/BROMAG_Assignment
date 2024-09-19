@@ -1,0 +1,50 @@
+#dmc_container {
+    /* border: 1px solid; */
+    position: absolute;
+    width: 998px;
+    height: 559px;
+    left: 282px;
+    border-radius: 80px 0 0 80px;
+    background-color: #F5F6FA;
+}
+
+#dmc_main {
+    width: 100%;
+
+    height: 480px;
+    border-radius: 0 0 0 80px;
+    background-color: #F5F6FA;
+}
+
+.heading_backbtn {
+    margin: 0 20px;
+    height: 8%;
+    width: 35%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.heading_backbtn button {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    background-color: #F5F6FA;
+}
+
+.heading_backbtn button svg {
+    color: #1F303C;
+    width: 100%;
+    height: 100%;
+}
+
+.heading_backbtn span {
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    color: #1F303C;
+}

@@ -1,0 +1,203 @@
+#sidebar_container {
+    position: absolute;
+    width: 431px;
+    height: 559px;
+    top: 0;
+    left: 0;
+    background-color: #1F303C;
+}
+
+#logo_box {
+    /* border: 1px solid white; */
+    width: 63px;
+
+    height: 57.14;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    color: white;
+}
+
+#logo_box svg {
+    width: 100%;
+    height: 100%;
+}
+
+#mainubtn_box {
+    /* border: 1px solid white; */
+    position: relative;
+    left: 0;
+    top: 50px;
+    width: 261px;
+    height: 388px;
+}
+
+#mainubtn_list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-item {
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: row;
+    width: 261px;
+    height: 31px;
+}
+
+.mainulist_label {
+    background-color: #56DDE8;
+    width: 18px;
+    height: 31px;
+    border-radius: 0 8px 8px 0;
+    /* visibility: hidden; */
+    opacity: 0;
+    position: relative;
+    left: -10px;
+    transition: opacity 0.3s, background-color 0.3s;
+}
+
+.mainulist_label.active {
+    opacity: 1;
+}
+
+.menu-item:hover .mainulist_label {
+    opacity: 1;
+    transition: opacity 0.3s, background-color 0.3s;
+}
+
+.mainuIcon {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 10px;
+    width: 232px;
+    height: 31px;
+}
+
+.mainuIcon.active {
+    background-color: #677F90;
+    border-radius: 8px;
+    opacity: 74%;
+}
+
+.menu-item:hover .mainuIcon {
+    background-color: #677F90;
+    border-radius: 8px;
+    opacity: 74%;
+    transition: background-color 0.3s;
+}
+
+.mainuIcon a {
+    text-decoration: none;
+    color: white;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.75px;
+    text-align: left;
+}
+
+.mainuIcon svg {
+    color: white;
+    width: 20px;
+    height: 20px;
+}
+
+/* 
+#sidebar_container {
+    position: absolute;
+    width: 431px;
+    height: 1166px;
+    top: 0;
+    left: 0;
+    background-color: #1F303C;
+}
+
+#logo_box {
+    border: 1px solid white;
+    width: 63px;
+
+    height: 57.14;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    color: white;
+}
+
+#logo_box svg {
+    width: 100%;
+    height: 100%;
+}
+
+#mainubtn_box {
+    border: 1px solid white;
+    position: relative;
+    left: 0;
+    top: 157px;
+    width: 261px;
+    height: 728px;
+}
+
+#mainubtn_list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-item {
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    width: 261px;
+    height: 54px;
+}
+
+.mainulist_label {
+    background-color: #56DDE8;
+    width: 18px;
+    height: 54px;
+    border-radius: 0 8px 8px 0;
+    visibility: hidden;
+    position: relative;
+    left: -9px;
+}
+
+.mainuIcon {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 15px;
+    width: 232px;
+    height: 54px;
+}
+
+.mainuIcon.active {
+    background-color: #677F90;
+    border-radius: 8px;
+    opacity: 74%;
+}
+
+.mainuIcon a {
+    text-decoration: none;
+    color: white;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    text-align: left;
+}
+
+.mainuIcon svg {
+    color: white;
+    width: 24px;
+    height: 24px;
+}
+*/
