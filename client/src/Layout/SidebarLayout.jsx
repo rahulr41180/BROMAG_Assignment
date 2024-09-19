@@ -21,14 +21,14 @@ const sidebarMainuData = [
     { navigate : "#" ,menu: "Billing Management", menuIcon: MdOutlineReceiptLong },
     { navigate : "#" ,menu: "Sales Management", menuIcon: GoGraph },
     { navigate : "#" ,menu: "Order Management", menuIcon: FiBox },
-    { navigate : "/dominat-management" ,menu: "Dominant Management", menuIcon: FaRankingStar },
+    { navigate : "#" ,menu: "Dominant Management", menuIcon: FaRankingStar },
     { navigate : "#" ,menu: "Menu Management", menuIcon: GrNotes },
     { navigate : "#" ,menu: "Employee Management", menuIcon: FaUserGroup },
     { navigate : "#" ,menu: "Table Management", menuIcon: BsTable },
     { navigate : "#" ,menu: "Stock Management", menuIcon: AiOutlineStock },
     { navigate : "#" ,menu: "Inventory Management", menuIcon: ImSpinner9 },
-    { navigate : "#" ,menu: "Stock Management", menuIcon: TiGroupOutline },
-    { navigate : "#" ,menu: "Inventory Management", menuIcon: TbWallet }
+    { navigate : "#" ,menu: "CRM Management", menuIcon: TiGroupOutline },
+    { navigate : "#" ,menu: "Wallet Management", menuIcon: TbWallet }
 ];
 
 export const SidebarLayout = () => {
